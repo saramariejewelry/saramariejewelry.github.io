@@ -1,12 +1,15 @@
-/* Background color */
+/* Page background and font */
 body {
   background-color: #40ff00;
   font-family: "Century Gothic", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-/* Bold text for headings and paragraphs */
+/* Bold text */
 h1, h2, p {
   font-weight: bold;
+}
 
 /* Image container */
 .image-container {
@@ -17,10 +20,10 @@ h1, h2, p {
   margin: 30px 0;
 }
 
-/* Medium-sized images that fit on screen */
+/* Smaller images (half previous size) */
 .image-container img {
-  width: 50%;         /* 50% of the viewport width */
-  max-width: 400px;   /* never bigger than 400px */
-  height: auto;       /* maintain aspect ratio */
+  width: 25%;        /* half of previous 50% width */
+  max-width: 200px;  /* never bigger than 200px */
+  height: auto;      /* maintain aspect ratio */
   display: block;
 }
