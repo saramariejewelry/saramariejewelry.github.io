@@ -10,17 +10,17 @@ h1, h2, p {
 
 /* Image container */
 .image-container {
-  margin: 30px auto;
   display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: center;    /* center horizontally */
-  gap: 20px;              /* space between images */
+  flex-direction: column;  /* stack vertically */
+  align-items: center;     /* center horizontally */
+  gap: 20px;               /* space between images */
+  margin: 30px 0;
 }
 
-/* Medium-sized images */
+/* Medium-sized images that fit on screen */
 .image-container img {
-  width: 300px;      /* medium width */
-  height: 200px;     /* medium height */
-  object-fit: cover; /* crop if needed to fit */
+  width: 50%;         /* 50% of the viewport width */
+  max-width: 400px;   /* never bigger than 400px */
+  height: auto;       /* maintain aspect ratio */
   display: block;
 }
