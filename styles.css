@@ -7,4 +7,18 @@ body {
 /* Bold text for headings and paragraphs */
 h1, h2, p {
   font-weight: bold;
+
+  /* Center the images and control their size */
+.image-container {
+  text-align: center; /* centers inline elements like <img> */
+  margin-top: 20px;
+}
+
+.image-container img {
+  display: block;        /* puts them on separate lines */
+  margin: 0 auto 20px;   /* centers horizontally and adds space between */
+  width: 400px;          /* set desired width */
+  height: 300px;         /* set desired height */
+  object-fit: cover;     /* crop images if needed to fit dimensions */
+}
 }
