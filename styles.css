@@ -14,11 +14,11 @@ h1, h2, p {
   margin-top: 20px;
 }
 
-.image-container img {
-  display: block;        /* puts them on separate lines */
-  margin: 0 auto 20px;   /* centers horizontally and adds space between */
-  width: 200px;          /* set desired width */
-  height: 150px;         /* set desired height */
-  object-fit: cover;     /* crop images if needed to fit dimensions */
+  .image-container img {
+  display: block;
+  margin: 0 auto 15px;  /* centers images and adds space between */
+  width: 150px;         /* smaller width */
+  height: 100px;        /* smaller height */
+  object-fit: cover;    /* crop if needed to fit dimensions */
 }
 }
