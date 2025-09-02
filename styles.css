@@ -23,7 +23,7 @@ h1, h2, p {
 
 /* Medium images that won’t be huge */
 .image-container img {
-  width: 200px;    /* fixed medium width */
+  width: 400px;    /* fixed medium width */
   height: auto;    /* maintain aspect ratio */
   display: block;
 }
