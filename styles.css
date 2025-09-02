@@ -1,1 +1,10 @@
+/* Background color */
+body {
+  background-color: #40ff00;
+  font-family: "Century Gothic", Arial, sans-serif;
+}
 
+/* Bold text for headings and paragraphs */
+h1, h2, p {
+  font-weight: bold;
+}
