@@ -8,17 +8,19 @@ body {
 h1, h2, p {
   font-weight: bold;
 
-  /* Center the images and control their size */
+/* Image container */
 .image-container {
-  text-align: center; /* centers inline elements like <img> */
-  margin-top: 20px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center;    /* center horizontally */
+  gap: 20px;              /* space between images */
 }
 
-  .image-container img {
+/* Medium-sized images */
+.image-container img {
+  width: 300px;      /* medium width */
+  height: 200px;     /* medium height */
+  object-fit: cover; /* crop if needed to fit */
   display: block;
-  margin: 0 auto 15px;  /* centers images and adds space between */
-  width: 150px;         /* smaller width */
-  height: 100px;        /* smaller height */
-  object-fit: cover;    /* crop if needed to fit dimensions */
-}
 }
