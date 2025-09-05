@@ -1,6 +1,6 @@
 /* Page background and font */
 body {
-  background-color: #40ff00;
+  background-color: #000000;
   font-family: "Century Gothic", Arial, sans-serif;
   text-align: center;
   padding: 20px;
@@ -9,6 +9,7 @@ body {
 
 /* Bold text */
 h1, h2, p {
+  color: #FFFFFF;
   font-weight: bold;
 }
 
